@@ -1,0 +1,13 @@
+material CHECKOUT_AREA
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture CHECKOUT_AREA.png
+      }
+    }
+  }
+}

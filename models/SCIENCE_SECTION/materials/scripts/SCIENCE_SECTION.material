@@ -1,0 +1,13 @@
+material SCIENCE_SECTION
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture SCIENCE_SECTION.png
+      }
+    }
+  }
+}

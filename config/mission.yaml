@@ -1,0 +1,21 @@
+locations:
+  - INFORMATION_DESK
+  - SCIENCE_SECTION
+  - NOVEL_SECTION
+  - CHECKOUT_AREA
+
+INFORMATION_DESK:
+  goal: {x: 6.02, y: 1.01, qz: 0.987, qw: 0.160}
+  qr_expected: "LOCATION=INFORMATION_DESK"
+
+SCIENCE_SECTION:
+  goal: {x: -1.99, y: 6.01, qz: -0.999, qw: 0.005}
+  qr_expected: "LOCATION=SCIENCE_SECTION"
+
+NOVEL_SECTION:
+  goal: {x: -4.37, y: -3.23, qz: -0.0009, qw: 0.999}
+  qr_expected: "LOCATION=NOVEL_SECTION"
+
+CHECKOUT_AREA:
+  goal: {x: 2.99, y: -5.98, qz: -0.0001, qw: 0.999}
+  qr_expected: "LOCATION=CHECKOUT_AREA"
