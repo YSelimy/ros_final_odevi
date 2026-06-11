@@ -1,0 +1,13 @@
+material NOVEL_SECTION
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture NOVEL_SECTION.png
+      }
+    }
+  }
+}

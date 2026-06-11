@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="INFORMATION_DESK">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <box><size>0.2 0.2 0.01</size></box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://INFORMATION_DESK/materials/scripts</uri>
+            <uri>model://INFORMATION_DESK/materials/textures</uri>
+            <name>INFORMATION_DESK</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box><size>0.2 0.2 0.01</size></box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

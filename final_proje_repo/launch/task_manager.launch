@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="robot_tasks" type="spawn_qrs.py" name="spawn_qrs_node" output="screen" />
+  
+  <node pkg="robot_tasks" type="qr_reader.py" name="qr_reader_node" output="screen" />
+  
+  <node pkg="robot_tasks" type="task_manager.py" name="task_manager_node" output="screen" />
+</launch>

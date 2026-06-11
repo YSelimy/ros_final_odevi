@@ -1,0 +1,13 @@
+material INFORMATION_DESK
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture INFORMATION_DESK.png
+      }
+    }
+  }
+}
