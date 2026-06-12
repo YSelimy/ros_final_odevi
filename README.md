@@ -68,3 +68,7 @@ Proje hiyerarşisinde modülerliği sağlamak adına aşağıdaki ROS iletişim 
 3. Actions (Eylemler)
 
     move_base : Robotun mission.yaml dosyasından okunan hedef koordinatlara (x, y, qz, qw) otonom navigasyonla gidebilmesi için task_manager.py içinde SimpleActionClient kullanılarak çağrılan aksiyon yapısıdır. Robot hedefe ulaşana kadar beklenir ve başarı/başarısızlık durumu eylem sonucuna göre değerlendirilir.
+
+
+   ------------------Demo-----------------
+   https://drive.google.com/drive/folders/13TT2Cznf5WsVzR7toikdMKFN66cyiY69?usp=drive_link
