@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>final_proje_repo</name>
+  <version>0.0.0</version>
+  <description>Otonom Robot Navigasyon Projesi</description>
+  <maintainer email="dev@todo.todo">Developer</maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+</package>
